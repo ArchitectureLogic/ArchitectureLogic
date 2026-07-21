@@ -3,7 +3,8 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains&weight=700&size=35&duration=4500&pause=500&width=600&lines=Hi+I'm+Sudheera+Perera+%F0%9F%91%8B;Software+Developer;Security-Minded+Architect;Backend+Developer+%26+Systems+Builder;I+Build+Secure%2C+Scalable+Systems;Always+Building%2C+Always+Learning" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains&weight=700&size=35&duration=4500&pause=500&width=600&lines=Hi+I'm+Sudheera+Perera+%F0%9F%91%8B;+I'm+A+Cybersecurity+Student;+I'm+A+Software+Developer;+I'm+a+Security-Minded+Architect;+I'm+a+Backend+Developer+%26+Systems+Builde;+I+Like+Exploring+New+Technology+And+AI;I+Like+To+Engineers+New+System;+I+Build+Secure%2C+Scalable+Systems;Always+Building%2C+Always+Learning"  alt="Typing SVG" /></a>
+
 
 </div>
 
