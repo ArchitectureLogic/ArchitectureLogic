@@ -32,13 +32,15 @@ Cybersecurity • Software Engineering • Networking • Emerging Technologies
 
 I enjoy understanding **how systems break**, then engineering solutions that make them **stronger, scalable, and secure**.
 
-### 🔎 Current Focus
+### ### 🔎 Current Focus
 
-* 🔐 Ethical Hacking & Penetration Testing
-* 🌐 Network Security & Infrastructure
-* 🤖 AI + Cybersecurity Research
-* 🧠 Capture The Flag (CTF) Challenges
-* ⚡ Secure Full Stack Development
+* 🤖 **Bots & Intelligent Automation**
+* 🏗️ **Software Architecture & Enterprise Systems**
+* 🔐 **Cybersecurity & Secure Infrastructure**
+* 🌐 **Network Infrastructure & Security Engineering**
+* 🏢 **Enterprise Solution Design & Implementation**
+* 🧠 **AI + Cybersecurity Research**
+* ⚡ **Building Systems Beyond Conventional Technological Limits**
 
 ---
 
