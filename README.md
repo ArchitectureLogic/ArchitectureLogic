@@ -18,7 +18,7 @@ Cybersecurity • Software Engineering • Networking • Emerging Technologies
 
 🌐 [Portfolio](https://architecturelogic.github.io/portfolio/) •
 💼 [LinkedIn](https://www.linkedin.com/in/sudheera-perera-576552297) •
-✉️ [sudheerafierking@gmail.com](mailto:sudheerafierking@gmail.com)
+✉️ [sudheera2027@gmail.com](mailto:sudheera2027@gmail.com)
 
 </div>
 
