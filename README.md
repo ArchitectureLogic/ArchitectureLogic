@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Sudheera Perera
+# 👋 Hi, I'm Sudheera
 
 ### Cybersecurity Student • Software Engineer • Application Architecture Enthusiast
 
