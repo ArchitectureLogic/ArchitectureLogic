@@ -58,32 +58,404 @@ My goal is to continuously develop the ability to design and build applications 
 
 When I build an application, I try to think beyond the immediate implementation.
 
-```text
-Business Problem
-      │
-      ▼
-Requirements
-      │
-      ▼
-System Architecture
-      │
-      ├── Application Design
-      ├── API Design
-      ├── Database Design
-      ├── Authentication & Authorization
-      ├── Security Controls
-      ├── Infrastructure
-      └── Monitoring & Reliability
-      │
-      ▼
-Implementation
-      │
-      ▼
-Testing & Security Validation
-      │
-      ▼
-Scalable Production System
-```
+<svg width="900" height="480" viewBox="0 0 900 480"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Moving packet -->
+    <circle id="packet" r="5" fill="#58A6FF" filter="url(#glow)"/>
+
+    <!-- Arrow -->
+    <marker id="arrow"
+            markerWidth="8"
+            markerHeight="8"
+            refX="7"
+            refY="3"
+            orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#30363d"/>
+    </marker>
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="900"
+        height="480"
+        rx="20"
+        fill="#0D1117"/>
+
+  <!-- Title -->
+
+  <text x="450"
+        y="42"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="bold">
+    APPLICATION SYSTEM
+  </text>
+
+  <text x="450"
+        y="67"
+        text-anchor="middle"
+        fill="#8B949E"
+        font-family="Arial, sans-serif"
+        font-size="13">
+    Secure • Scalable • Maintainable
+  </text>
+
+
+  <!-- CLIENT -->
+
+  <rect x="350"
+        y="95"
+        width="200"
+        height="55"
+        rx="12"
+        fill="#161B22"
+        stroke="#58A6FF"
+        stroke-width="2"/>
+
+  <text x="450"
+        y="129"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        font-weight="bold">
+    🖥 CLIENT
+  </text>
+
+
+  <!-- API -->
+
+  <rect x="350"
+        y="190"
+        width="200"
+        height="55"
+        rx="12"
+        fill="#161B22"
+        stroke="#58A6FF"
+        stroke-width="2"/>
+
+  <text x="450"
+        y="224"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        font-weight="bold">
+    API GATEWAY
+  </text>
+
+
+  <!-- SECURITY -->
+
+  <rect x="100"
+        y="285"
+        width="200"
+        height="65"
+        rx="12"
+        fill="#161B22"
+        stroke="#F85149"
+        stroke-width="2"/>
+
+  <text x="200"
+        y="313"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        font-weight="bold">
+    🔐 SECURITY
+  </text>
+
+  <text x="200"
+        y="334"
+        text-anchor="middle"
+        fill="#8B949E"
+        font-family="Arial, sans-serif"
+        font-size="11">
+    Auth • Access • Protection
+  </text>
+
+
+  <!-- APPLICATION -->
+
+  <rect x="350"
+        y="285"
+        width="200"
+        height="65"
+        rx="12"
+        fill="#161B22"
+        stroke="#3FB950"
+        stroke-width="2"/>
+
+  <text x="450"
+        y="313"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        font-weight="bold">
+    ⚙ APPLICATION CORE
+  </text>
+
+  <text x="450"
+        y="334"
+        text-anchor="middle"
+        fill="#8B949E"
+        font-family="Arial, sans-serif"
+        font-size="11">
+    Business Logic • Services
+  </text>
+
+
+  <!-- SERVICES -->
+
+  <rect x="600"
+        y="285"
+        width="200"
+        height="65"
+        rx="12"
+        fill="#161B22"
+        stroke="#A371F7"
+        stroke-width="2"/>
+
+  <text x="700"
+        y="313"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        font-weight="bold">
+    🧩 SERVICES
+  </text>
+
+  <text x="700"
+        y="334"
+        text-anchor="middle"
+        fill="#8B949E"
+        font-family="Arial, sans-serif"
+        font-size="11">
+    APIs • Integrations • Workers
+  </text>
+
+
+  <!-- DATABASE -->
+
+  <rect x="350"
+        y="400"
+        width="200"
+        height="55"
+        rx="12"
+        fill="#161B22"
+        stroke="#D29922"
+        stroke-width="2"/>
+
+  <text x="450"
+        y="434"
+        text-anchor="middle"
+        fill="#F0F6FC"
+        font-family="Arial, sans-serif"
+        font-size="15"
+        font-weight="bold">
+    🗄 DATABASE
+  </text>
+
+
+  <!-- CONNECTIONS -->
+
+  <!-- Client → API -->
+
+  <path d="M450 150 L450 190"
+        stroke="#30363D"
+        stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+
+  <!-- API → Application -->
+
+  <path d="M450 245 L450 285"
+        stroke="#30363D"
+        stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+
+  <!-- Application → Security -->
+
+  <path d="M350 317 L300 317"
+        stroke="#30363D"
+        stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+
+  <!-- Application → Services -->
+
+  <path d="M550 317 L600 317"
+        stroke="#30363D"
+        stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+
+  <!-- Application → Database -->
+
+  <path d="M450 350 L450 400"
+        stroke="#30363D"
+        stroke-width="2"
+        marker-end="url(#arrow)"/>
+
+
+  <!-- SECURITY → APPLICATION -->
+
+  <path d="M300 335
+           C325 370
+            365 370
+            400 350"
+        fill="none"
+        stroke="#30363D"
+        stroke-width="2"
+        stroke-dasharray="6 6"/>
+
+
+  <!-- SERVICES → DATABASE -->
+
+  <path d="M700 350
+           C700 390
+            600 425
+            550 425"
+        fill="none"
+        stroke="#30363D"
+        stroke-width="2"
+        stroke-dasharray="6 6"/>
+
+
+  <!-- ===================== -->
+  <!-- ANIMATED DATA PACKETS -->
+  <!-- ===================== -->
+
+  <!-- Client → API -->
+
+  <circle r="5"
+          fill="#58A6FF"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="2s"
+      repeatCount="indefinite"
+      path="M450 150 L450 190"/>
+
+  </circle>
+
+
+  <!-- API → Application -->
+
+  <circle r="5"
+          fill="#3FB950"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="2s"
+      begin="0.5s"
+      repeatCount="indefinite"
+      path="M450 245 L450 285"/>
+
+  </circle>
+
+
+  <!-- Application → Security -->
+
+  <circle r="5"
+          fill="#F85149"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="2.5s"
+      begin="0.2s"
+      repeatCount="indefinite"
+      path="M350 317 L300 317"/>
+
+  </circle>
+
+
+  <!-- Application → Services -->
+
+  <circle r="5"
+          fill="#A371F7"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="2.5s"
+      begin="1s"
+      repeatCount="indefinite"
+      path="M550 317 L600 317"/>
+
+  </circle>
+
+
+  <!-- Application → Database -->
+
+  <circle r="5"
+          fill="#D29922"
+          filter="url(#glow)">
+
+    <animateMotion
+      dur="2s"
+      begin="0.8s"
+      repeatCount="indefinite"
+      path="M450 350 L450 400"/>
+
+  </circle>
+
+
+  <!-- SECURITY STATUS -->
+
+  <circle cx="760"
+          cy="100"
+          r="7"
+          fill="#3FB950"
+          filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text x="780"
+        y="105"
+        fill="#3FB950"
+        font-family="Arial, sans-serif"
+        font-size="12">
+    SYSTEM SECURE
+  </text>
+
+
+  <!-- Footer -->
+
+  <text x="450"
+        y="472"
+        text-anchor="middle"
+        fill="#8B949E"
+        font-family="Arial, sans-serif"
+        font-size="12">
+    DESIGN → BUILD → SECURE → SCALE
+  </text>
+
+</svg>
 
 ### Areas I care about
 
