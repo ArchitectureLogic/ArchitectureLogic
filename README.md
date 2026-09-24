@@ -66,11 +66,11 @@
 <div align="center">
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Sudheera2005&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudheera2005&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="160" src="https://github-readme-stats-fast.vercel.app/api?username=ArchitectureLogic&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+  <img height="160" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ArchitectureLogic&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=Sudheera2005&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=ArchitectureLogic&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
